@@ -1,20 +1,20 @@
 fileFormatVersion: 2
-guid: 97d299d0930bc604a8231bd629d932b6
+guid: 82594e29585894a6bbfa06148fc9e0e3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Hat
+    2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Hat
+    4300000: Cube
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Hat
-    second: {fileID: 2100000, guid: a4da35fc4eeaaba4d9e27b460ec59f6f, type: 2}
+      name: No Name
+    second: {fileID: 2100000, guid: e05960a3e707be099a407bfba6c75d50, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -45,7 +45,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 10
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
