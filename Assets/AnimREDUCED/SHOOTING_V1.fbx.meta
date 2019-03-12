@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ddcdbb2e642185239e8d4fc5e472ad0
+guid: b985cf402cb0bafc8ad0decaed939c5d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -32,11 +32,6 @@ ModelImporter:
     100052: Character1_Spine2
     100054: Empty
     100056: //RootNode
-    100058: Character1_Head_end_end
-    100060: Character1_LeftHand_end_end
-    100062: Character1_LeftToeBase_end_end
-    100064: Character1_RightHand_end_end
-    100066: Character1_RightToeBase_end_end
     400000: Character1_Head
     400002: Character1_Head_end
     400004: Character1_Hips
@@ -66,12 +61,7 @@ ModelImporter:
     400052: Character1_Spine2
     400054: Empty
     400056: //RootNode
-    400058: Character1_Head_end_end
-    400060: Character1_LeftHand_end_end
-    400062: Character1_LeftToeBase_end_end
-    400064: Character1_RightHand_end_end
-    400066: Character1_RightToeBase_end_end
-    7400000: Shooting
+    7400000: Character1_Hips|Character1_Hips|Character1_Hips|Character1_Hips|Character1_Hips
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -100,35 +90,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Shooting
-      takeName: Character1_Hips|Character1_Hips|Character1_Hips|Character1_Hips|anim_stack|anim
-      firstFrame: 0
-      lastFrame: 3324.0002
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
