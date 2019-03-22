@@ -98,6 +98,7 @@ ModelImporter:
     100184: Character1_Spine8
     100186: Character1_Spine_2
     100188: HORSE_001
+    100190: Gun
     400000: //RootNode
     400002: Character1_Hips
     400004: Character1_LeftArm
@@ -193,6 +194,7 @@ ModelImporter:
     400184: Character1_Spine8
     400186: Character1_Spine_2
     400188: HORSE_001
+    400190: Gun
     2100000: Body
     2100002: Face
     2100004: Boot
@@ -205,10 +207,13 @@ ModelImporter:
     2100018: Body__colors1_png
     2100020: Face_002__colors1_png
     2100022: Face__colors1_png
+    2100024: None__colors1_png
     2300000: Hat
     2300002: Hat_001
+    2300004: Gun
     3300000: Hat
     3300002: Hat_001
+    3300004: Gun
     4300000: MAN
     4300002: MAN_001
     4300004: Hat
@@ -216,6 +221,7 @@ ModelImporter:
     4300008: Hat_001
     4300010: HatLong
     4300012: HORSE_001
+    4300014: Gun
     7400000: Default Take
     9500000: //RootNode
     13700000: MAN
