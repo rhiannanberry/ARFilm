@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HatMat
-  m_Shader: {fileID: 4800000, guid: 362623962a1a725088b744a843073ea6, type: 3}
+  m_Shader: {fileID: 4800000, guid: 627429664a18f2a1dba8666ebe52b852, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -66,6 +66,7 @@ Material:
     m_Floats:
     - _Angle: 59
     - _BumpScale: 1
+    - _CelShadingBlurWidth: 0.2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
