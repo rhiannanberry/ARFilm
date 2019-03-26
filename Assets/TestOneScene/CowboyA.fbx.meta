@@ -54,12 +54,46 @@ ModelImporter:
     2100000: Body
     2100002: Face
     2100004: Hat
+    2100006: Eyes
+    2100008: Pupils
+    2100010: Mouth
+    2100012: LPupil
+    2100014: RPupil
+    2100016: LEyebrow
+    2100018: REyebrow
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: MAN
     4300002: Hat
     9500000: //RootNode
     13700000: MAN
     13700002: Hat
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 036138fed8c20360a94c35d78add936a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: 0e01cebcb2fb64dc2a4e2eebcfc7b3c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: 036138fed8c20360a94c35d78add936a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouth
+    second: {fileID: 2100000, guid: 7a4ed2d033aff2f648bcc1e91420d462, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pupils
+    second: {fileID: 2100000, guid: 98c8f56ba682d071bb4b9d0408a2c302, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

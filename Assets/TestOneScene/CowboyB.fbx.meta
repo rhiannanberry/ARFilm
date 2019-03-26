@@ -55,6 +55,11 @@ ModelImporter:
     2100002: Face
     2100004: Boot
     2100006: Hat
+    2100008: Mouth
+    2100010: LPupil
+    2100012: RPupil
+    2100014: LEyebrow
+    2100016: REyebrow
     2300000: //RootNode
     2300002: MAN.001
     3300000: //RootNode
@@ -64,7 +69,42 @@ ModelImporter:
     9500000: //RootNode
     13700000: MAN.001
     13700002: HatLong
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: e55e83b1d5a9ef04d8164f9ade5345f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: e55e83b1d5a9ef04d8164f9ade5345f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEyebrow
+    second: {fileID: 2100000, guid: f01f46ffdc8029b9baccb98384f4647a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LPupil
+    second: {fileID: 2100000, guid: b640d376f960ba2d3af68ef0e3f163fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouth
+    second: {fileID: 2100000, guid: f1b4c433d98ee06caab89893f83951b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: REyebrow
+    second: {fileID: 2100000, guid: 1ef2f235a475b8dcab80b8d65443d843, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RPupil
+    second: {fileID: 2100000, guid: 6b205ed375813c7d68cac2a524935ee6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

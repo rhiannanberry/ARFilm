@@ -9,6 +9,7 @@
         _Color ("Color", Color) = (1,1,1,1)
         _AlphaCutoff ("Alpha Cutoff", Range(0.0, 1.0)) = 0.5
         _RotateSpeed ("Rotate Speed", Range(-20.0, 20.0)) = 0
+        _Angle ("Angle", Float) = 0
 
         [Toggle(BILLBOARD)] _Billboard("Billboard", Float) = 0
     }
@@ -50,6 +51,7 @@
             float _ColorType;
             float _Billboard;
             float _RotateSpeed;
+            float _Angle;
 
             v2f vert (appdata v)
             {
@@ -72,7 +74,13 @@
                     o.uv.xy += 0.5;
                 } else {
                     o.vertex = UnityObjectToClipPos(v.vertex);
+                    float sinX = sin (_Angle);
+                    float cosX = cos (_Angle);
+                    float sinY = sin (_Angle);
+                    float2x2 rotMatrix = float2x2(cosX, -sinX, sinY, cosX);
+                    
                     o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                    o.uv.xy = mul (o.uv.xy, rotMatrix);
                 }
                 
                 UNITY_TRANSFER_FOG(o,o.vertex);

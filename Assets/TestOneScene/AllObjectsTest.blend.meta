@@ -210,6 +210,25 @@ ModelImporter:
     2100024: None__colors1_png
     2100026: Eyes__colors1_png
     2100028: Pupils
+    2100030: Mouth__colors1_png
+    2100032: RPupil__colors1_png
+    2100034: REyebrow__colors1_png
+    2100036: LEyebrow__colors1_png
+    2100038: Hat__cowboyA_tex_png
+    2100040: Body__cowboyA_tex_png
+    2100042: Body__cowboyA_tex_png_001
+    2100044: RPupil__Pupil_png_001
+    2100046: LPupil__Pupil_png_001
+    2100048: Mouth__cowboyA_tex_png
+    2100050: LEyebrow__Pupil_png_001
+    2100052: REyebrow__Pupil_png_001
+    2100054: Body__cowboyB_tex_png
+    2100056: Mouth__MouthFlat_png
+    2100058: LPupil__LeftEye_png_001
+    2100060: RPupil__LeftEye_png_001
+    2100062: LEyebrow__LeftEye_png_001
+    2100064: REyebrow__LeftEye_png_001
+    2100066: Hat__cowboyB_tex_png
     2300000: Hat
     2300002: Hat_001
     2300004: Gun
