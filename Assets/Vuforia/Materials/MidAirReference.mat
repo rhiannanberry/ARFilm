@@ -4,11 +4,10 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: CactusMat
-  m_Shader: {fileID: 4800000, guid: 627429664a18f2a1dba8666ebe52b852, type: 3}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MidAirReference
+  m_Shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,18 +18,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_2D1F91BB:
-        m_Texture: {fileID: 2800000, guid: c4c68cf6aa200c18e97dd2857a3cf883, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_D11AB910:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_EFB64DC5:
-        m_Texture: {fileID: 2800000, guid: 355ece64f30f8d45cb45f7659061e605, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -52,14 +39,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 355ece64f30f8d45cb45f7659061e605, type: 3}
+        m_Texture: {fileID: 2800000, guid: e21dffdcc7917472c9827aa5e2387fe8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NoiseTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -71,47 +54,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Ramp:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_19A99D6E: 0.7
-    - Vector1_800FBE9F: 0.5
-    - Vector1_D8B90734: 0.5
-    - _Angle: 116
     - _BumpScale: 1
-    - _CelShadingBlurWidth: 0.1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DisAmount: 0
-    - _DisLineWidth: 0
     - _DstBlend: 0
-    - _FirstOutlineWidth: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NOISE: 0
     - _OcclusionStrength: 1
-    - _Offset: 0.005
-    - _Outline: 0.005
-    - _OutlineZ: -0.001
     - _Parallax: 0.02
-    - _SecondOutlineWidth: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - Color_14D845F5: {r: 0.8773585, g: 0.8423766, b: 0.41384828, a: 1}
-    - Color_7CE510AB: {r: 0.8207547, g: 0.13439259, b: 0, a: 0}
-    - Color_CC10C39F: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DisLineColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FirstOutlineColor: {r: 1, g: 0, b: 0, a: 0.5}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SecondOutlineColor: {r: 0, g: 0, b: 1, a: 1}
