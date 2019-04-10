@@ -67,11 +67,13 @@
                     float cosX = cos (_RotateSpeed * _Time);
                     float sinY = sin (_RotateSpeed * _Time);
                     float2x2 rotMatrix = float2x2(cosX, -sinX, sinY, cosX);
-                    rotMatrix *= 0.5;
+                    rotMatrix *= 4;
                     rotMatrix += 0.5;
                     rotMatrix = rotMatrix * 2 - 1;
                     o.uv.xy = mul (v.uv.xy, rotMatrix);
                     o.uv.xy += 0.5;
+                    
+                    
                 } else {
                     o.vertex = UnityObjectToClipPos(v.vertex);
                     float sinX = sin (_Angle);

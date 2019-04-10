@@ -58,7 +58,12 @@ ModelImporter:
     4300000: HORSE
     9500000: //RootNode
     13700000: HORSE
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face.002
+    second: {fileID: 2100000, guid: c5d8fe01b150efe448ab68e5a4e62a2c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
