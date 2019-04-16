@@ -8,13 +8,21 @@ public class Cowboy : MonoBehaviour
     public Transform horse;
     public Transform horseHips;
     public Transform hips;
+    public Transform rightHand;
+    public Transform hat;
+    public Transform container;
+    public Transform gun;
+    public Transform gunDummy;
 
+    public AudioClip gunSound;
+
+    AudioSource aus;
     Vector3 offset, hipPosition;
     bool parented = true;
     bool offsetset = false;
     void Start()
     {
-        
+        aus = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,7 +39,6 @@ public class Cowboy : MonoBehaviour
 
     void GetHipPosition() {
         hipPosition = hips.transform.position;
-        Debug.Log("DDKDDKDK" + hipPosition);
 
     }
 
@@ -48,6 +55,22 @@ public class Cowboy : MonoBehaviour
             offsetset = true;
         }
         
+    }
+
+    void ChangeGunParent() {
+        //gun.position = new Vector3(.209f,.252f,-2.17f);
+        gun.SetParent(rightHand);
+        gun.position = gunDummy.position;
+        gun.rotation = gunDummy.rotation;
+    }
+
+    void PlayGunSound() {
+        aus.clip = gunSound;
+        aus.Play();
+    }
+
+    void DeparentHat() {
+        hat.SetParent(container);
     }
 
 }

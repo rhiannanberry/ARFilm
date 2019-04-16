@@ -24,7 +24,7 @@ public class Feet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!aus.isPlaying && playFeet) {
+        /*if (!aus.isPlaying && playFeet) {
             time += Time.deltaTime;
             if (timingLoop[currentWait] <= time) {
                 time = 0;
@@ -32,7 +32,7 @@ public class Feet : MonoBehaviour
                 aus.clip = GetRandom();
                 aus.Play();
             }
-        }
+        }*/
     }
 
     AudioClip GetRandom() {
@@ -41,6 +41,12 @@ public class Feet : MonoBehaviour
 
     void StopFeet() {
         playFeet = false;
+    }
+
+    public void PlayFoot() {
+        aus.Stop();
+        aus.clip = GetRandom();
+        aus.Play();
     }
 
     void PlayThud() {

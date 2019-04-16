@@ -16,4 +16,8 @@ public class Horse : MonoBehaviour
     {
         
     }
+
+    public void Flip() {
+        transform.localScale = new Vector3(1,1,-1);
+    }
 }
